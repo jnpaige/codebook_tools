@@ -1,0 +1,28 @@
+# Python Environment Requirements for Codebook Parser
+# Version: Python 3.11.14
+# 
+# This project uses only Python standard library modules
+# No additional packages need to be installed
+#
+# Standard library modules used:
+# - re (regular expressions)
+# - json (JSON processing)
+# - os (operating system interface)
+# - pathlib (file path handling)
+# - typing (type hints)
+# - datetime (date/time handling)
+# - sys (system-specific parameters)
+#
+# If you want to verify your environment, you can install these
+# development/testing packages (optional):
+#
+# pytest==7.4.3          # For running tests (optional)
+# black==23.11.0         # For code formatting (optional)
+# flake8==6.1.0          # For code linting (optional)
+PyPDF2
+sentence-transformers
+pytorch 
+faiss-cpu
+numpy
+openai
+PyYAML
