@@ -520,7 +520,6 @@ Archaeological Method and Theory, 20(1), 151-186.
 ## Authors
 
 Jonathan Paige  
-University of Missouri  
 jonathan.n.paige@gmail.com
 
 ## Changelog
