@@ -18,6 +18,14 @@ try:
 except ImportError:
     raise ImportError("PyPDF2 not installed. Install with: pip install PyPDF2")
 
+# Optional: Try to import pdfminer for better extraction
+try:
+    from pdfminer.high_level import extract_pages
+    from pdfminer.layout import LAParams, LTTextContainer, LTTextBox, LTTextLine
+    HAS_PDFMINER = True
+except ImportError:
+    HAS_PDFMINER = False
+
 
 class ParagraphExtractor:
     """Extract paragraphs from PDFs with metadata."""
@@ -47,6 +55,83 @@ class ParagraphExtractor:
         """
         print(f"  Processing: {Path(pdf_path).name}")
         
+        # Use pdfminer if available (best text extraction with layout analysis)
+        if HAS_PDFMINER:
+            return self._extract_with_pdfminer(pdf_path, citation)
+        else:
+            return self._extract_with_pypdf2(pdf_path, citation)
+    
+    def _extract_with_pdfminer(self, pdf_path: str, citation: str) -> List[Dict]:
+        """
+        Extract using pdfminer.six - excellent paragraph detection with layout analysis.
+        
+        pdfminer preserves the PDF layout structure and can identify text blocks,
+        which correspond much better to actual paragraphs than simple text extraction.
+        """
+        paragraphs = []
+        
+        try:
+            # LAParams controls layout analysis
+            # line_margin: max spacing between lines in same paragraph
+            # word_margin: max spacing between words
+            # boxes_flow: text flow detection (-1.0 to 1.0, None for disable)
+            laparams = LAParams(
+                line_margin=0.5,      # Lines closer than this are same paragraph
+                word_margin=0.1,      # Word spacing
+                boxes_flow=None,       # no text flow detection.  
+                detect_vertical=False # Don't detect vertical text
+            )
+            
+            page_num = 0
+            for page_layout in extract_pages(pdf_path, laparams=laparams):
+                page_num += 1
+                para_num = 1
+                
+                # Extract text containers (these are usually paragraphs)
+                for element in page_layout:
+                    # LTTextBox represents a text block (usually a paragraph)
+                    if isinstance(element, LTTextContainer):
+                        text = element.get_text().strip()
+                        
+                        # Skip if too short or looks like header/footer
+                        if (len(text) < self.min_length or 
+                            len(text) > self.max_length or
+                            self._is_header_or_footer(text)):
+                            continue
+                        
+                        # Clean up hyphenation and whitespace
+                        text = self._clean_text(text)
+                        
+                        # Check again after cleaning
+                        if len(text) < self.min_length:
+                            continue
+                        
+                        para_id = self._create_paragraph_id(citation, page_num, para_num)
+                        
+                        paragraph = {
+                            'paragraph_id': para_id,
+                            'citation': citation,
+                            'page': page_num,
+                            'paragraph_number': para_num,
+                            'text': text,
+                            'char_count': len(text),
+                            'source_file': str(pdf_path)
+                        }
+                        
+                        paragraphs.append(paragraph)
+                        para_num += 1
+            
+            print(f"    Extracted {len(paragraphs)} paragraphs from {page_num} pages (pdfminer)")
+            
+        except Exception as e:
+            print(f"    Error with pdfminer: {e}")
+            # Fallback to PyPDF2
+            return self._extract_with_pypdf2(pdf_path, citation)
+        
+        return paragraphs
+    
+    def _extract_with_pypdf2(self, pdf_path: str, citation: str) -> List[Dict]:
+        """Extract using PyPDF2 with improved paragraph detection."""
         paragraphs = []
         
         try:
@@ -78,7 +163,7 @@ class ParagraphExtractor:
                         
                         paragraphs.append(paragraph)
                 
-                print(f"    Extracted {len(paragraphs)} paragraphs from {total_pages} pages")
+                print(f"    Extracted {len(paragraphs)} paragraphs from {total_pages} pages (PyPDF2)")
                 
         except Exception as e:
             print(f"    Error: {e}")
@@ -86,15 +171,82 @@ class ParagraphExtractor:
         return paragraphs
     
     def _split_into_paragraphs(self, text: str) -> List[str]:
-        """Split text into paragraphs."""
+        """
+        Split text into paragraphs using multiple strategies.
+        
+        Tries in order:
+        1. Indentation-based splitting
+        2. Blank line splitting
+        3. Sentence-based chunking (fallback)
+        """
         # Clean text
         text = self._clean_text(text)
         
-        # Split on double line breaks
-        paragraphs = re.split(r'\n\s*\n+', text)
+        # Strategy 1: Split on blank lines or indentation
+        paragraphs = self._split_by_structure(text)
         
-        # Filter and clean
-        valid_paragraphs = []
+        # If we got reasonable paragraphs, use them
+        if paragraphs and len(paragraphs) > 1:
+            avg_length = sum(len(p) for p in paragraphs) / len(paragraphs)
+            if 100 < avg_length < 2000:  # Reasonable paragraph length
+                return self._filter_paragraphs(paragraphs)
+        
+        # Strategy 2: Sentence-based chunking as fallback
+        paragraphs = self._chunk_by_sentences(text)
+        return self._filter_paragraphs(paragraphs)
+    
+    def _split_by_structure(self, text: str) -> List[str]:
+        """Split by paragraph structure (indentation and blank lines)."""
+        # Split on: double line breaks, or line break + 2+ spaces (indentation)
+        paragraphs = re.split(r'\n\s*\n+|\n(?=\s{2,})', text)
+        
+        # Also split on patterns like:
+        # - Line ending with period followed by capital letter on next line
+        # - Line break before section headings (all caps, title case)
+        result = []
+        for para in paragraphs:
+            # Further split if we detect new paragraphs within
+            sub_paras = re.split(r'\.(?=\s+[A-Z][a-z]+)', para)
+            result.extend(sub_paras)
+        
+        return [p.strip() for p in result if p.strip()]
+    
+    def _chunk_by_sentences(self, text: str, target_size: int = 800) -> List[str]:
+        """
+        Chunk text by sentences to target size.
+        
+        Args:
+            text: Input text
+            target_size: Target characters per chunk
+        """
+        # Split into sentences (simple approach)
+        sentences = re.split(r'(?<=[.!?])\s+', text)
+        
+        chunks = []
+        current_chunk = []
+        current_length = 0
+        
+        for sentence in sentences:
+            sentence_length = len(sentence)
+            
+            # If adding this sentence exceeds target, start new chunk
+            if current_length + sentence_length > target_size and current_chunk:
+                chunks.append(' '.join(current_chunk))
+                current_chunk = []
+                current_length = 0
+            
+            current_chunk.append(sentence)
+            current_length += sentence_length
+        
+        # Add remaining
+        if current_chunk:
+            chunks.append(' '.join(current_chunk))
+        
+        return chunks
+    
+    def _filter_paragraphs(self, paragraphs: List[str]) -> List[str]:
+        """Filter paragraphs by length and content."""
+        valid = []
         for para in paragraphs:
             para = para.strip()
             
@@ -103,10 +255,10 @@ class ParagraphExtractor:
                 len(para) > self.max_length or 
                 self._is_header_or_footer(para)):
                 continue
-                
-            valid_paragraphs.append(para)
+            
+            valid.append(para)
         
-        return valid_paragraphs
+        return valid
     
     def _clean_text(self, text: str) -> str:
         """Clean extracted text."""

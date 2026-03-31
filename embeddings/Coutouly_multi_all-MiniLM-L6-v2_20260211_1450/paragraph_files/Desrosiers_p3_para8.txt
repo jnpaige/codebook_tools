@@ -1,0 +1,5 @@
+approach incorporates the "chaîne opéra toire" concept (Leroi-Gourhan 1964),
+ which relates static objects to a dynamic
+ context of production, thus providing
+ a way to understand the evolution of
+ technical behaviours. We believe that

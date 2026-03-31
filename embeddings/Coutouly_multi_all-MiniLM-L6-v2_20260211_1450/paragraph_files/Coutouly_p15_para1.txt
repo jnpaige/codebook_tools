@@ -1,0 +1,2 @@
+microblades, Mode 4 produces blades, and Mode 5 
+produces large blades.

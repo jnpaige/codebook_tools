@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/jpaige/Desktop/Research_repositories/**)",
+      "Read(//c/Users/jpaige/Desktop/Research_repositories/text_coding_llm_repositories/**)",
+      "Bash(python -c \"import docx; print\\(''python-docx available''\\)\")",
+      "Read(//c/Users/jpaige/miniconda3/envs/LLM/**)",
+      "Read(//c/Users/jpaige/anaconda3/envs/LLM/**)",
+      "Bash(PYTHON=\"/c/Users/jpaige/anaconda3/envs/LLM/python.exe\")",
+      "Bash(\"$PYTHON\" \"C:/Users/jpaige/Desktop/Research_repositories/text_coding_llm_repositories/procedural_unit_rag/pythonProject/site_form/step_01_pdf_parsing.py\")",
+      "Bash(\"$PYTHON\" -m pip install \"surya-ocr\" \"transformers>=4.56,<5.0\" -q)",
+      "Bash(\"$PYTHON\" -c \"import torch; print\\(''torch:'', torch.__version__, ''| CUDA:'', torch.cuda.is_available\\(\\)\\)\")",
+      "Bash(\"$PYTHON\" -c \"import surya; print\\(''surya ok''\\)\")",
+      "Bash(\"$PYTHON\" -m pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121 -q)",
+      "Bash(ls \"C:/Users/jpaige/Desktop/Local_repositories/2024_forms_large_files/\"*_surya.pdf)",
+      "Bash(\"$PYTHON\" \"C:/Users/jpaige/Desktop/Research_repositories/text_coding_llm_repositories/procedural_unit_rag/pythonProject/site_form/step_02_embed_chunks.py\")",
+      "Bash(\"$PYTHON\" -m pip install sentence-transformers openai-clip -q)",
+      "Bash(PYTHON=\"/c/Users/jpaige/anaconda3/envs/LLM/python.exe\" \"$PYTHON\" \"C:/Users/jpaige/Desktop/Research_repositories/text_coding_llm_repositories/procedural_unit_rag/pythonProject/site_form/step_02_embed_chunks.py\")",
+      "Bash(PYTHON=\"/c/Users/jpaige/anaconda3/envs/LLM/python.exe\" cd \"C:/Users/jpaige/Desktop/Research_repositories/text_coding_llm_repositories/procedural_unit_rag/pythonProject/site_form\")",
+      "Bash(\"$PYTHON\" step_02_embed_chunks.py)",
+      "Bash(grep:*)"
+    ]
+  }
+}

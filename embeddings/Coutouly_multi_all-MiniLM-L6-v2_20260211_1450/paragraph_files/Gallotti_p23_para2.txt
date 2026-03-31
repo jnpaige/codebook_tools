@@ -1,0 +1,2 @@
+examples implementing the centripetal hierarchical method, corresponding to a change in the débitage methods in the Olduvai
+sequence (de la Torre and Mora, 2005).

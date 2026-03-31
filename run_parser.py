@@ -38,7 +38,7 @@ CODEBOOK_VERSION = "v1.1"
 CODEBOOK_NAME = "Procedural_Unit"
 
 # Where to save output (will create subdirectory with name and version)
-OUTPUT_BASE_DIR = r"C:\Users\jpaige\Desktop\Local_repositories\Codebook_output_llm_repo"
+OUTPUT_BASE_DIR = r"C:\Use1rs\jpaige\Desktop\Local_repositories\Codebook_output_llm_repo"
 
 
 # JSON formatting - indent level (2 or 4 recommended)

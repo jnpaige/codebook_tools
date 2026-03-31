@@ -1,0 +1,947 @@
+PARAGRAPHS CLOSEST TO CODEBOOK CENTROID
+======================================================================
+
+These paragraphs are closest to the 'center' of all codebook entries,
+meaning they are generally relevant to the codebook's overall concepts.
+
+
+======================================================================
+PDF: Coutouly
+======================================================================
+
+Rank 1 (distance: 0.8203)
+ID: Coutouly_p4_para2
+Page: 4, Paragraph: 2
+
+Text:
+diagnostic pieces relating to the initial shaping of 
+the core, and whether the shaping of the core took 
+place at Amakomanak or at some other location is 
+unclear. While most of the platforms are relatively 
+short, with platforms lengths around 20 or 30 mm, 
+there are a couple of pieces that indicate a more 
+elongated shaping of the core. This is especially 
+true for one microblade core (Fig. 6) that seems 
+to have been abandoned at an early stage, which 
+reveals a good sense of the initial preform of this 
+core. Its platform measures 55 mm in length, and 
+the microblade- removal front is limited to one 
+extremity. The other interesting artifact is a tablet 
+(or platform- removal flake) (Fig. 10) that has analogous characteristics with the previous core. It has 
+the same elongated aspect, and the platform length 
+is about 65 mm. While most microblade cores have 
+a semicircular outline and microblade- removal 
+front, one of the microblade cores has a completely
+
+----------------------------------------------------------------------
+
+Rank 2 (distance: 0.8413)
+ID: Coutouly_p15_para5
+Page: 15, Paragraph: 5
+
+Text:
+Pressure-Flaking Techniques
+Pressure flaking was the main technique for the 
+removal of microblades, based on the regularity of 
+microblades and microblade scars on cores. Key 
+features of pressure flaking include edge regularity and parallelism, a straight rather than curved 
+profile, maximum width at the shoulder (i.e., 
+immediately below the bulb), and the presence of 
+a very small point-like pressure bulb (for detailed 
+descriptions of pressure- flaking attributes, see 
+Desrosiers 2012; Gómez Coutouly 2012; Inizan et 
+al. 1999; Tixier 1984). Donald E. Crabtree’s experiments on pressure flaking and blade production 
+clearly demonstrated that “the wider the blade, the 
+greater the amount of pressure that is required” to 
+produce it (Crabtree 1968:468). Jacques Pelegrin 
+(1988, 2003, 2012) has experimented with several 
+different pressure techniques (termed “modes”) 
+for the removal of blades and microblades in 
+order to reproduce various archaeological examples that vary widely in size from small microblades to very large blades (Gómez Coutouly 
+2011a, 2011b, 2016). As a result, he proposed five 
+main pressure- flaking modes for the production 
+of microblades and blades: handheld (Mode 1), 
+shoulder crutch (Mode 2), short crutch (Mode 3), 
+long crutch (Mode 4), and pressure with a lever 
+device (Mode 5). In sum, modes 1 and 2 produce 
+microblades, Mode 3 produces slightly larger
+
+----------------------------------------------------------------------
+
+Rank 3 (distance: 0.8461)
+ID: Coutouly_p12_para1
+Page: 12, Paragraph: 1
+
+Text:
+consequence of elongated tablets from originally 
+elongated microblade cores. Therefore, even 
+though some of the cores have a prismatic or 
+tabular aspect, they may have been at first (before 
+microblade reduction) elongated cores. However, 
+even if elongated, these cores cannot be considered 
+as wedge shaped in the same sense as the Yubetsu 
+or Campus microblade cores (typical of the Dyuktai complex in Siberia or of the Denali complex 
+in interior Alaska). Among the main differences 
+with typical wedge-shaped cores is the presence 
+of faceted striking platforms (Fig. 3a, 4b, and 8c), 
+the presence of lateral crests (Fig. 3a), large 
+microblade- removal fronts with a semicircular to 
+circular outline (such as Fig. 2a, 2b, and 7a), and 
+broad irregular tablets (Fig. 10) that are not typical 
+of ski-spall removals (such as in Yubetsu cores for 
+example).
+
+----------------------------------------------------------------------
+
+Rank 4 (distance: 0.9059)
+ID: Coutouly_p20_para3
+Page: 20, Paragraph: 3
+
+Text:
+suggested that some of the sites from northwestern Alaska with large prismatic cores (including 
+some discussed in this paper) may be a derivative 
+from the Mesolithic Sumnagin complex of Siberia 
+(ca. 10700 to 5100 BC). However, the prismatic 
+cores from northwestern Alaska are not that close 
+morphologically or technologically from the 
+Sumnagin Mesolithic cores. The Sumnagin microblade cores always tend to be rounded conical- or 
+bullet- shaped cores with facetted platforms with 
+microblade removals all around the circumference 
+of the core (Fig. 17), which is rarely the case in 
+the Alaskan assemblages discussed in this article. 
+Also, even if microblades from the Sumnagin complex are also used unretouched, quite a few are 
+also retouched or turned into tools (e.g., sidescrapers, burins, truncated microblades, gravers, borers, 
+points) (e.g., Dyakonov 2007; Gómez Coutouly 
+2011b), which is not the case in northwestern 
+Alaska. I have already argued against such a connection when comparing the Anangula assemblage 
+(Aleutian Islands) with the Sumnagin complex 
+(Gómez Coutouly 2015).
+
+----------------------------------------------------------------------
+
+Rank 5 (distance: 0.9169)
+ID: Coutouly_p13_para1
+Page: 13, Paragraph: 1
+
+Text:
+Figure 10. Amakomanak site: available information from the assemblage to reconstruct the reduction 
+sequence. Although diagnostic pieces relating to the initial shaping are missing, the presence of a core 
+abandoned at an early stage, and an elongated tablet indicates the overall morphology of core preforms. These could then be reduced into a circular microblade core, which could, in turn, be shortened 
+through the removal of tablets. Note: the photos of the two tablets are courtesy of Robert Gal.
+
+----------------------------------------------------------------------
+
+Rank 6 (distance: 0.9175)
+ID: Coutouly_p12_para2
+Page: 12, Paragraph: 2
+
+Text:
+due to the limits of the core- holding device. Only 
+one microblade core has clearly been abandoned 
+following a knapping accident (Fig. 8a), probably 
+after a failed tablet removal attempt. The presence of this failed tablet removal, of a short tablet 
+(Fig. 10) as well as a recently removed tablet on 
+one of the cores (Fig. 5), suggests that rejuvenation 
+of the platform happened at various stages during 
+the manufacturing process. One possibility is that 
+exhausted microblade cores were intentionally 
+shortened at the end in order to pursue the microblade removal using a lower pressure- flaking mode 
+(see below the description of pressure- flaking 
+modes). In this case, it could be suggested that 
+smaller cores, such as the small circular core with 
+a recent platform- tablet removal (Fig. 7a), may 
+have been originally similar to the other cores (i.e., 
+taller and with a longer striking platform).
+
+----------------------------------------------------------------------
+
+Rank 7 (distance: 0.9208)
+ID: Coutouly_p15_para2
+Page: 15, Paragraph: 2
+
+Text:
+correspond to this reduction sequence trajectory, 
+since at least four microblade cores differ from this 
+method of production. Although similar in size 
+and raw material, two of the cores do not seem 
+to follow this method of production: the first one 
+has a flat back and a lateral crest (Fig. 3a), and the 
+second one (Fig. 7a) is conical. None of these cores 
+seems to have had an elongated preform unless 
+the reduction process completely altered their 
+initial appearance. It is plausible (although hard to 
+confirm without actual refits) whether this circular 
+core was at first elongated and became circular at 
+the very end of the reduction sequence, or whether 
+the preform was already circular in outline. Then 
+there are also two smaller cores (Fig. 8b,c) that differ from the collection in various respects: 1) the 
+raw material is slightly different, since they both 
+look to be made of a finer-grained type of chert 
+(Table 1); 2) they are smaller in size (26 and 35 mm 
+tall) (Table 1); 3) the shaping out of the cores is 
+different, with one being the only core with a rectangular platform (Fig. 8c) and the other one with a 
+more expedient and less elaborate shaping out of 
+the core (Fig. 8b); and, 4) the microblade- removal 
+scars are thinner than the other microblade cores, 
+which indicates the possibility that they were 
+not pressure flaked with the same technique (as 
+described in more detail hereafter).
+
+----------------------------------------------------------------------
+
+Rank 8 (distance: 0.9423)
+ID: Coutouly_p20_para2
+Page: 20, Paragraph: 2
+
+Text:
+producing cores of similar size, and with the same 
+prismatic method. Also, most cores could correspond to a Mode 3 type of pressure flaking given 
+the length, width, and regularity of microblades 
+and microblade-removal scars. The only caveat 
+to this statement would be the presence of two 
+smaller cores, which could correspond to different 
+reduction sequences. Given the assemblage and its 
+associated dates (ca. 7700 to 7500 cal BC), Amakomanak represents an important assemblage from 
+the early Holocene of northwestern Alaska that 
+helps better understand the presence of microblade technology in this area of eastern Beringia.
+Based on some of the microblade sites from
+
+----------------------------------------------------------------------
+
+Rank 9 (distance: 0.9482)
+ID: Coutouly_p23_para1
+Page: 23, Paragraph: 1
+
+Text:
+while microblade- core morphology and methods 
+evolved over time (Yubetsu method, Campus 
+method, and conical cores), microblade morphology and metrics did not really change from 
+one cultural component to the next (metrics and 
+function as unretouched insets). While core variability in northwestern Alaska may be due to raw 
+material, other sites also can provide evidence of 
+core morphology changing without modifying the 
+final intent of microblade products. This question 
+concerning the presence of both types of cores 
+(wedge shaped and prismatic) in northwestern 
+Alaska should also be a future point of interest. 
+Are both types of cores produced at the same time 
+in various sites or do they correspond to distinct 
+chronological periods? Are both types of cores 
+producing similar microblades? Can raw material 
+alone explain the presence of both types of cores?
+
+----------------------------------------------------------------------
+
+Rank 10 (distance: 0.9487)
+ID: Coutouly_p17_para1
+Page: 17, Paragraph: 1
+
+Text:
+In northwestern Alaska, one of the major sites 
+with microblade technology present in good dated 
+stratigraphic context is Onion Portage. It contains different occupation phases, some of them 
+with microblade assemblages such as the Akmak 
+(ca. 8700 BC) and Kobuk (ca. 7000 BC) complexes 
+(Anderson 1970, 1988). Based on published 
+illustrations, the cores from this site range from 
+small wedge-shaped specimens to larger prismatic 
+ones; whether the differences in core morphology 
+represent different technical traditions or adaptation to raw materials is a question that should be 
+addressed in the future.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+PDF: Desrosiers
+======================================================================
+
+Rank 1 (distance: 0.7862)
+ID: Desrosiers_p10_para1
+Page: 10, Paragraph: 1
+
+Text:
+used: 23 flakes, six natural tabular pieces,
+ and one microblade. The tabular pieces
+ are represented mostly by abandoned
+ preforms broken during the chipping
+ process. Flakes were probably the most
+ frequent blank and on four pieces it was
+ possible to determine that the removal
+ technique was direct percussion with hard
+ hammer. This is recognizable because of
+ the thickness of the original flake and
+ the presence of a pronounced bulb. By
+ contrast, fluting and the final step of
+ knapping involved pressure flaking (for a
+
+----------------------------------------------------------------------
+
+Rank 2 (distance: 0.7937)
+ID: Desrosiers_p15_para1
+Page: 15, Paragraph: 1
+
+Text:
+ing was often combined with grooving
+ and grinding. In our experiments, direct
+ percussion flaking with soft hammer was
+ best controlled when edges are ground.
+ In our experimental study, we noted
+ that transversal grooving for obtaining
+ the notches, a task that occurs late in
+ the production sequence, frequently
+ produced accidental small flakes similar
+ to those recorded in the archaeological
+ material (Figure 7: 1). The same produc tion process appears to have been used
+ for all types of schist tools.
+
+----------------------------------------------------------------------
+
+Rank 3 (distance: 0.8086)
+ID: Desrosiers_p14_para2
+Page: 14, Paragraph: 2
+
+Text:
+of a suitable one from a larger block.
+ This block is then grooved to delineate
+ the desired shape and then snapped to
+ obtain the preform, producing waste
+ grooved fragments. In our experiments,
+ a rough quartzite cobble was broken to
+ obtain sharp and abrasive edges. The
+ grooves were rapidly made; width of the
+ grooves matched as closely as possible
+ the one from the GhGk-63 assemblage.
+ At GhGk-63, it appears that flaking was
+ occasionally used in the process, and
+ that some flakes exhibit ground faces
+ (n = 19) or grooves (n = l). This shows
+ that in making schist implements, flak-
+
+----------------------------------------------------------------------
+
+Rank 4 (distance: 0.8099)
+ID: Desrosiers_p11_para1
+Page: 11, Paragraph: 1
+
+Text:
+average thickness = 7 mm), natural
+ tabular fragments ( n =4) , and exhausted
+ cores (n=3). Most of the scrapers have
+ the working end on the distal part of
+ the flake, with only partial or no lateral
+ preparation (n=26, Figure 3: 9), while
+ some were completely chipped (n=8).
+ Three have their working edge on the
+ lateral part of the flake and one is a
+ double-end scraper; four scrapers are
+ broken. Most of the scrapers have vari able shapes except for ten end scrapers
+ that have standardized shapes with
+ prominent fronts, and sides narrowing
+ toward the hafting end. Finally, 14 very
+ small end scrapers are present (average
+ thickness = 3 mm), and were derived
+ from various types of blanks: flakes
+ (n=7), microblades (n=5, Figure 5: 4),
+ and fluting spalls (n=2).
+
+----------------------------------------------------------------------
+
+Rank 5 (distance: 0.8364)
+ID: Desrosiers_p18_para1
+Page: 18, Paragraph: 1
+
+Text:
+using direct hard-hammer percussion
+ and tanged microblades may be due to
+ specific qualities of the material. Max to produce thick flakes suitable for later
+ well, for example, suggests that crystal
+ modification. Cores of good quality chert
+ quartz microblades were probably used
+ were worked until completely exhausted.
+ Coarser-grained basalt was exploited fol for "sharper and more delicate cutting"
+ (1985: 90). This is supported by the use lowing a different chaîne opératoire with
+ the intention to produce bigger flakes
+ wear analysis carried out on the quartz
+ for adze blades.
+ crystal artifacts from other contexts,
+ including European Mesolithic sites. In
+ addition, the sharpness and durability of
+ crystal quartz tool edges make them par ticularly valuable in butchering animals
+ (Pignat and Plisson 2000: 76).
+
+----------------------------------------------------------------------
+
+Rank 6 (distance: 0.8501)
+ID: Desrosiers_p16_para1
+Page: 16, Paragraph: 1
+
+Text:
+an unmodified lateral surface (n=21),
+ which indicates that the primary micro blades were obtained following the
+ natural ridge of the crystal and that the
+ crystal needed little preparation. The
+ striking platform was prepared on one
+ of the extremities of the crystal and the
+ flaking surface was located on one or two
+ sides of the crystal. Little preparation
+ was necessary except for the removal
+ of concretions, which may explain the
+ small quantity of waste flakes (rc = 33).
+ Thus, the prismatic hexagonal shape
+ of the crystal with its six edges allows
+ debitage without significant prepara tion, and the crystal quartz could be
+ considered as "preform core" ready to
+ be flaked as an elongated prismatic core
+ (Chelidonio 1990: 490).
+
+----------------------------------------------------------------------
+
+Rank 7 (distance: 0.8664)
+ID: Desrosiers_p11_para2
+Page: 11, Paragraph: 2
+
+Text:
+produce specific tools. Most are laterally
+ retouched (Figure 5: 1 and 3): 15 on
+ one edge, five on both edges, one den ticulate on both edges, and one tanged
+ microblade (Figure 5: 5). There is also
+ one single-pointed microblade and one
+ bi-pointed microblade (Figure 5: 2).
+ The majority of the lateral retouch is
+ fine, representing 56% of all the tools
+ made on microblades. This corresponds
+ with Owen's (1988: 66) statement that
+ "During the Dorset, fine lateral retouch
+ becomes increasingly less frequent. It
+ drops from 67% in the Early Dorset, to
+ 53% in the Middle Dorset, to as little as
+ 15% in the Late Dorset. "
+
+----------------------------------------------------------------------
+
+Rank 8 (distance: 0.8687)
+ID: Desrosiers_p16_para3
+Page: 16, Paragraph: 3
+
+Text:
+End scrapers
+ Eleven of the 33 quartz flakes were trans formed into end scrapers. Seven of these
+ were prepared by completely retouch ing the initial blank, the remainder
+ by retouching only the distal portion.
+ Very small end scrapers are absent. The
+ blanks used for end scraper production
+ are thick flakes and do not appear to
+ have been specially produced for that
+ purpose. As for chert end scrapers,
+ it appears improbable that there was
+ systematic flake production to obtain
+ end scrapers in quartz. We therefore
+ suggest that the blanks were by-products
+ resulting from the production of micro blades.
+
+----------------------------------------------------------------------
+
+Rank 9 (distance: 0.8710)
+ID: Desrosiers_p14_para1
+Page: 14, Paragraph: 1
+
+Text:
+rial involved little preparation by flaking.
+ The tools include ten diamond-shaped
+ points (Figure 7: 1), five narrow shaped
+ blades (Figure 7: 2), one long point, and
+ 22 undetermined tool fragments. On all
+ of these blades, the sharp edges were
+ obtained by grinding, but not all of their
+ surfaces exhibited complete grinding.
+ A number of ground schist fragments
+ exhibit grooving and illustrates the
+ manufacturing process, or part of the
+ chaîne opératoire, involved in tool making
+ (Figure 7: 5) (see Desrosiers and Gen dron [in press] for detailed description).
+ Experimentation was also used to
+
+----------------------------------------------------------------------
+
+Rank 10 (distance: 0.8820)
+ID: Desrosiers_p20_para1
+Page: 20, Paragraph: 1
+
+Text:
+Archie prehistory concerns the methods
+ used to produce schist tools (e.g., Clark
+ 1982; Dumond 1968, 1977: 63). In the
+ Eastern Arctic, several authors have
+ provided detailed or fragmentary
+ descriptions of the chaîne opératoire of
+ schist tool production (ACI 1993: 82-85;
+ Benmouyal 1978: 68-73; Harp 1964:
+ 62-64; Weetaluktuk n.d.) . Characteristic
+ grooved waste fragments from schist
+ tool production are now well known,
+ but they are still confused with abraders
+ or sharpeners (Auger 1986: 116; Nagy
+ 2000: 139). At GhGk-63, for example, a
+ combination of chipping and grooving
+ operations is associated with the schist
+ artifacts and debitage. Resolving this
+ debate will require careful examination
+ and comparison of the lithic assemblages
+ from many sites.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+PDF: Gallotti
+======================================================================
+
+Rank 1 (distance: 0.7451)
+ID: Gallotti_p17_para1
+Page: 17, Paragraph: 1
+
+Text:
+bear numerous centripetal and tangential ﬂake scars. One ﬂaking
+surface exhibits a large negative scar, which produced a short and
+wide ﬂake that was potentially useful as a LCT blank. After this large
+ﬂake was produced, a marginal and non-continuous retouch was
+used to transform the core into a LCT (Fig. 16: 2). The large ﬂakes
+that resulted from this discoid exploitation were retouched as
+massive scrapers. Typically, a retouch is performed on the transversal or lateral edges of discoid ﬂakes that are wider than they are
+long. The retouch could be unifacial or, most commonly, bifacial
+
+----------------------------------------------------------------------
+
+Rank 2 (distance: 0.7820)
+ID: Gallotti_p10_para1
+Page: 10, Paragraph: 1
+
+Text:
+The ﬂaked surface corresponds in 43.8% of the cases to the
+longest natural face of the original support, exploited over its
+entire length to produce one to two series of three to nine
+elongated ﬂakes from a striking platform rectiﬁed by removals
+to create a suitable angle between 78(cid:3) and 88(cid:3) (Fig. 10: 1e4).
+Only six of these cores document the adoption of the bipolar
+technique (Fig. 10: 5).
+Flat cobbles were ﬂaked on their sagittal plane (9%), which
+presented a favourable convexity for knapping from a rectiﬁed
+striking platform. At discard, the ﬂaked surfaces frequently
+present a last series of hinged ﬂake scars, which suggests that
+the knappers could not continue to exploit the piece due to the
+limited extension of its convexity (Fig. 10: 6).
+
+----------------------------------------------------------------------
+
+Rank 3 (distance: 0.7950)
+ID: Gallotti_p18_para2
+Page: 18, Paragraph: 2
+
+Text:
+The technique used to extract such pieces is direct hand-held
+percussion. The patterns observed in the core analysis are also
+observed on most of the resulting large ﬂakes. The majority of these
+ﬂakes (n ¼ 21) display a natural central part of the dorsal face,
+peripheral centripetal removals and wide, thick facetted butts,
+which are often adjacent to one of their backed lateral edges. In
+eight examples, these ﬂakes resemble large éclats débordants
+(Fig. 17: 3). However, three ﬂakes exhibit invasive centripetal and
+cordal negative scars on the dorsal face, which documents an
+intense preparation of the convexity of the ﬂaking surface during
+the débitage. Only three of these ﬂakes were retouched. One is a
+short, very wide ﬂake of Melka Fault lava modiﬁed by large notches
+on the dorsal face (Fig. 17: 4). The second example is a large
+transversal ﬂake of porphyritic basalt with a unidirectional facetted
+butt, which was turned into a massive scraper by a bifacial, rather
+invasive and non-intensive retouch. The retouch created a convex
+cutting edge and did not modify the shape of the blank. Two large
+removals on the ventral face thin the bulb and partially remove the
+butt (Fig. 17: 5). The third example is a transversal large ﬂake of
+porphyritic basalt with centripetal invasive removals on the dorsal
+face that correspond to the convexity conﬁguration of the core and
+a fairly invasive and continuous retouch on one edge of the ventral
+face, which thinned and removed the butt-bulb part. Isolated and
+non-continuous small removals were produced to thin portions of
+the edges (Fig. 17: 6). These last two artefacts can hardly be
+considered bifaces sensu stricto because they do not exhibit the
+search for a bifacial or bilateral equilibrium and a preconceived
+form (Roche and Texier, 1991; Inizan et al., 1999).
+
+----------------------------------------------------------------------
+
+Rank 4 (distance: 0.8019)
+ID: Gallotti_p18_para5
+Page: 18, Paragraph: 5
+
+Text:
+A single débitage method is documented by the core analysis,
+which resembles the unifacial centripetal prepared method
+described for small-medium ﬂake production (Fig. 17: 1e2). The
+horizontal plane of large cobbles or, rarely, blocks, is used as the
+ﬂaking surface, whereas a peripheral or semi-peripheral plane serves
+to prepare the striking platform through unidirectional removals.
+The majority of these cores exhibit a single large negative scar on the
+ﬂaking surface that corresponds to the production of the large ﬂake. A
+small number of cores exhibit a large negative scar and a small
+number of centripetal previous negative scars, which suggests the
+preparation of a peripheral convexity and the predetermination of a
+large and very thick ﬂake. After the detachment of the large ﬂake, the
+cores are abandoned. The cores are typically 15e19 cm long and
+clearly distinguishable from those focused on small-medium ﬂake
+production that belong to the same method (Fig. 8).
+
+----------------------------------------------------------------------
+
+Rank 5 (distance: 0.8059)
+ID: Gallotti_p21_para2
+Page: 21, Paragraph: 2
+
+Text:
+The second set is composed of hammerstones with fracture
+angles (sensu Mora and de la Torre, 2005). These tools (n ¼ 38)
+exhibit heavily battered ridges and numerous superimposed small
+negative scars that are irregular in shape with an impact point in
+their central portion and without a set directionality (Fig. 18: 3e5).
+These patterns prevent consideration of these pieces as regular
+hammerstones typically used for knapping, as argued elsewhere
+(de la Torre and Mora, 2005; Mora and de la Torre, 2005; de la Torre,
+2011a).
+
+----------------------------------------------------------------------
+
+Rank 6 (distance: 0.8078)
+ID: Gallotti_p12_para2
+Page: 12, Paragraph: 2
+
+Text:
+- Multifacial multidirectional irregular (n ¼ 416). This group accounts for the majority of the cores (Fig. 9). Core surfaces were
+alternatively ﬂaked through multidirectional removals without
+a clear organisation of the reduction process (Fig. 10: 14). No
+speciﬁc platform preparation was conducted insofar as each
+negative serves as a striking platform for the following removal
+on a secant face. The ﬂakes produced in this manner could have
+various shapes and are frequently short with thick, asymmetrical cross-sections. The cores in this category are typically small
+and overexploited. The largest cores (n ¼ 14) present a major
+ﬂaked surface with unidirectional long ﬂake scars exploited at
+the beginning of the reduction process and multidirectional
+removals on the other faces that correspond to the ﬁnal core
+reduction phase when the main ﬂaking surface was most likely
+no longer functional (Fig. 10: 15). Some cores testify the respect
+of an orthogonal shape during the ﬂaking. All of these cores
+were intensely reduced by several generations of removals, and
+the same ﬂaking surfaces were repeatedly ﬂaked.
+Obsidian angular elements with a trihedral volume and three
+plain or plano-convex secant surfaces were ﬂaked using this
+method (n ¼ 70). The trihedral volume of the original support
+is preserved along all of the reduction. The intersection of the
+surfaces create two angles of 70e90(cid:3) and one angle of (cid:4)45(cid:3)
+(Fig. 11: 1e4). Depending on the angle used, the resulting ﬂakes
+could be elongated or sub-quadrangular with tangential or
+unidirectional removals on the dorsal face. The tangential removals could produce ﬂakes typologically similar to the discoid
+tangential ﬂakes.
+
+----------------------------------------------------------------------
+
+Rank 7 (distance: 0.8101)
+ID: Gallotti_p23_para6
+Page: 23, Paragraph: 6
+
+Text:
+Large cutting tools at Garba IVD can be considered as massive
+scrapers, as are most of the LCTs at EF-HR, FC West and TK in
+Olduvai, in Peninj and at Gadeb 2E, in which the retouching never
+aims to manage the whole volume of the object or divide it into two
+different planes. In this process, thinning of percussion platforms
+and the bulb part could be claimed to be another repeated pattern
+(de la Torre et al., 2008). In some cases, as in Peninj and Kokiselei 4,
+shaping and/or retouch could produce pointed forms (de la Torre
+et al., 2008; Chevrier, 2012). In contrast, management of the bifacial and/or bilateral planes is visible at Kokiselei 4 and BK in
+
+----------------------------------------------------------------------
+
+Rank 8 (distance: 0.8167)
+ID: Gallotti_p12_para5
+Page: 12, Paragraph: 5
+
+Text:
+- Discoid. Discoid technology was an important aspect of the
+small débitage (n ¼ 171; Fig. 9). Discoid cores present the same
+patterns described for obsidian specimens. When the core is
+not at its maximal exploitation phase, it is possible to recognise
+that the natural blanks were cobbles of lavas or cobbles and
+angular elements of obsidian. Discoid cores exhibit two convex,
+usually asymmetric surfaces. These surfaces are the ﬂaking
+surface and the striking platform. Flakes are detached according to a plane that is secant to the plane of intersection of the
+two surfaces (sub-parallel when the core is overexploited). The
+striking platform could be any one of the following: (1) a natural surface with an ideal convexity for knapping, (2) a convex
+surface that corresponds to the ventral or dorsal face of a ﬂake,
+prepared or not, (3) a surface prepared by detachments on its
+periphery worked before the ﬂaking surface was created, or (4)
+two fairly similar symmetric surfaces, created by removals,
+which could be employed simultaneously or in alternate series
+of removals as a striking platform and ﬂaking surface (Boëda,
+1993; Jaubert and Mourre, 1996; Mourre, 2003; Terradas,
+2003). The convexity of the ﬂaking surface is natural in the
+use of cobbles, whereas angular elements require an initial
+conﬁguration of the core’s geometry. The peripheral convexity
+is acquired by a mostly centripetal ﬂaking organisation and
+tangential removals (Fig. 11: 5e14). The ﬂaking surface of one
+obsidian core presents a ﬂake negative scar similar to that of a
+preferential ﬂake (Fig. 11: 6, 13). Some ﬂakes, which were detached from the ventral face of the ﬂake blank, are Kombewa
+ﬂakes (Fig. 11: 7).
+
+----------------------------------------------------------------------
+
+Rank 9 (distance: 0.8220)
+ID: Gallotti_p3_para1
+Page: 3, Paragraph: 1
+
+Text:
+A classiﬁcation of the cores, which is particularly informative in
+the assessment of knapping methods and techniques, was performed using the identiﬁcation of the number of ﬂaking surfaces,
+the direction of ﬂaking, the presence or absence of a distinct prepared striking platform, and the value of the angle between the
+striking platform and the ﬂaking surface. Considering these attributes, the core analysis facilitated the identiﬁcation of exploitation
+modalities, the management of volumes and the presence or
+absence of a hierarchical organisation of the surfaces.
+
+----------------------------------------------------------------------
+
+Rank 10 (distance: 0.8336)
+ID: Gallotti_p18_para6
+Page: 18, Paragraph: 6
+
+Text:
+The percussion materials can be divided into two signiﬁcant sets
+based on a combination of several patterns: percussions marks, raw
+material, size, weight, and morphology. The ﬁrst set corresponds to
+47 hammerstones that display areas with highly concentrated
+pitting and ergonomic shapes that enable their use as hand-held
+hammerstones without previous intentional morphological modiﬁcation (Fig. 18: 1e2). These hammerstones are medium-sized
+spherical or elongated cobbles with plano- or bi-convex crosssections. In most cases (n ¼ 32), the impact scars are located in the
+central and protruding part of a convex face opposite to a natural
+and unmodiﬁed surface. In the other examples, the percussion zone
+is located at one or both extremities of an elongated cobble. Only
+one quasi-spherical cobble with a smooth surface obtained by
+
+----------------------------------------------------------------------
+
+
+======================================================================
+PDF: Tryon_et_a
+======================================================================
+
+Rank 1 (distance: 0.8436)
+ID: Tryon_et_a_p11_para1
+Page: 11, Paragraph: 1
+
+Text:
+The Levallois concept as deﬁned by Tixier (1967) and Bo¨eda (1994) includes
+only hard hammer direct percussion. Its use is conﬁrmed here by the artifact
+replication experiments discussed below, and observations of well-deﬁned impact
+cones on ﬂakes, as well as ﬂake striking platform angles and thicknesses (for
+discussion of these criteria, see Newcomer, 1971; Ohnuma and Bergman, 1982;
+Pelegrin, 2000). All Levallois ﬂakes and cores at sites LHA and FS show exclusive
+use hard hammer direct percussion, and production according to the preferential
+method. In the preferential method, a single Levallois ﬂake is removed from each
+prepared ﬂaking surface, which lies parallel to the plane dividing the upper and
+lower faces of the core. The asymmetry of the two core surfaces and the angle of
+ﬂake removal are particularly noticeable on two specimens from FS, a Levallois
+core recovered by Leakey in 1965 and a reﬁtting ﬂake found by McBrearty in 1993
+(see Fig. 3g). The ﬂake and core were likely discarded here by their makers due
+to a knapping accident that resulted in a type of ´eclat outrepass´e (overshot ﬂake)
+that removed the entire upper surface of the core. In the absence of more extensive
+reﬁts, it remains unclear if successive Levallois ﬂakes were removed from each
+core. The large sizes of some of the discarded cores (which weigh ∼ 3 kg) and
+the ﬁnal Levallois ﬂake negatives ( ∼ 13–15 cm in length) suggest that no smaller
+Levallois ﬂakes were intended.
+
+----------------------------------------------------------------------
+
+Rank 2 (distance: 0.8474)
+ID: Tryon_et_a_p11_para2
+Page: 11, Paragraph: 2
+
+Text:
+The hard hammer direct percussion technique was likely used at EMSA
+Koimilot Locus 1 and Locus 2. This is suggested by striking platform morphology
+and size, and the presence of three small cobbles that are interpreted as hammerstones. These are of a sufﬁcient size and weight (0.2–0.3 kg) to function as
+hammers for production of Levallois artifacts, and exhibit localized pitting that
+appears to represent percussion damage. At Locus 1, Levallois cores and reﬁtted
+ﬂakes demonstrate the presence of both the preferential and recurrent methods
+(see Figs. 4d and 4e), the latter resulting in the production of multiple Levallois
+ﬂakes from each prepared surface. These methods may represent different stages
+of a single core reduction strategy, as noted above. The symmetry of the elongated
+triangular ﬂakes from Locus 2 in plan view and in proﬁle, as well as the single large
+negative on the surface-recovered core (see Figs. 4b and 4c), suggest production
+by the preferential method.
+
+----------------------------------------------------------------------
+
+Rank 3 (distance: 0.8540)
+ID: Tryon_et_a_p14_para2
+Page: 14, Paragraph: 2
+
+Text:
+These experiments conﬁrm the inferences made from artifact observations:
+hard hammer direct percussion was the exclusive technique used in the manufacture of the Kapthurin Formation large Levallois ﬂakes. However, the experiments
+also show that it is necessary to use a range of hammerstones of different weights
+and textures for the production of a single large Levallois ﬂake, according to the
+variable circumstances and kind of core preparation locally required. Similar results have been described elsewhere for the manufacture of Levallois ﬂakes from
+ﬂint cores, and the production of a range of lava ﬂakes and tools, including handaxes (cf. Bo¨eda and Pelegrin, 1983; Jones, 1994; Newcomer, 1971; Toth, 1997).
+The particular hammerstone used in large Levallois ﬂake production varied according to the different stages of core reduction, the size and shape of the core and
+striking platform, and the size of the desired ﬂake removal (cf. Dibble and Pelcin,
+1995; Pelcin, 1997; Speth, 1981). Four different hammerstones were used here,
+divided by weight, material, and provenance:
+
+----------------------------------------------------------------------
+
+Rank 4 (distance: 0.8599)
+ID: Tryon_et_a_p18_para1
+Page: 18, Paragraph: 1
+
+Text:
+of ﬂake removal, and use of hard hammer direct percussion. Although some
+may have served as blanks for biface manufacture, most Acheulian Levallois
+ﬂakes were modiﬁed by unifacial retouch on one or both lateral margins. In
+these latter examples, no ﬂakes of any size are removed from either the distal end or ventral surface. These tools, which we classify as Levallois cleaver
+ﬂakes, are a distinguishing feature of the Kapthurin Formation Acheulian. Similar
+methods of manufacture and retouch are reported from late Acheulian contexts
+at Kalambo Falls, Zambia (Clark and Kleindienst, 2001), from several sites in
+Ethiopia, including those at Arba and in the Upper Herto Member of the Bouri
+Formation (Clark et al., 2003; Kurashina, 1978; Schick and Clark, 2003) (see
+Fig. 6). Comparable artifacts have also been described from surface contexts in
+Algeria (Alimen and Zuate y Zuber, 1978). Otherwise, large retouched Levallois
+ﬂakes are not commonly reported from African Acheulian sites. They co-occur
+at the Leakey Handaxe Area (LHA) in the Kapthurin Formation with other typical African large cutting tools (LCTs), including handaxes and more extensively
+retouched cleavers on non-Levallois blanks (see Fig. 3d and 3h). In general, the
+Kapthurin Formation Acheulian Levallois ﬂakes and cleaver ﬂakes are similar to
+other African LCTs in terms of shape and size, but serve to highlight the diversity within the late Acheulian large cutting tool category, as recently emphasized
+by Clark (2001b; Clark and Kleindienst, 2001; see also Gowlett and Crompton,
+1994: 28–39).
+
+----------------------------------------------------------------------
+
+Rank 5 (distance: 0.8599)
+ID: Tryon_et_a_p13_para1
+Page: 13, Paragraph: 1
+
+Text:
+The majority of Levallois ﬂakes from LHA (n = 14) belong to the third cateory, having retouched proximal or medial portions of one or both lateral margins
+(see Fig. 3c); similar examples occur elsewhere in the Kapthurin Formation, including the site at GnJh-17 (Cornelissen, 1992) and Locality 105 (Tryon, 2003)
+(see Fig. 1). Following the terminology of Inizan et al. (1999), retouch on these
+specimens is direct (removals limited to the dorsal surface) and short (extending
+only a few mm from the margin). The distribution of ﬂake removals within the
+retouched area is continuous, removals are sub-parallel to one another, and the
+retouched edge is convex and semi-abrupt, with edge angles between 45◦ and
+60◦. Distal margins are unretouched, which is a deﬁning characteristic of cleavers
+(Inizan et al., 1999; Texier and Roche, 1995; Tixier, 1957). Cleavers made on
+Levallois ﬂakes from northwestern African sites are classiﬁed as Type III cleavers
+of Tixier (1957) and Alimen and Zuate y Zuber (1978), which lack prominent
+cleaver bits as a result of centripetal preparation. Cleavers with marginal retouch
+limited to the dorsal surface are termed “cleaver ﬂakes” by Clark and Kleindienst
+(2001) in their analysis of material from Kalambo Falls, Zambia. Following Clark
+and Kleindienst (2001) we term the retouched Levallois ﬂakes found at some
+Kapthurin Formation Acheulian sites “Levallois cleaver ﬂakes.”
+
+----------------------------------------------------------------------
+
+Rank 6 (distance: 0.8625)
+ID: Tryon_et_a_p6_para2
+Page: 6, Paragraph: 2
+
+Text:
+Observed characters include raw material type and initial form, the pattern of
+preparation of the Levallois ﬂake-release surface determined from core and ﬂake
+dorsal scars, the shape and size of recovered Levallois ﬂakes, and the presence
+and type of retouch. Inferred characters include ﬂaking technique and method, as
+deﬁned by Tixier (1967), Bo¨eda (1994), Pelegrin (1995), and Inizan et al. (1999).
+The technique of ﬂake detachment is the means by which mechanical force is
+applied in order to fracture stone. It is determined by examination of striking
+platform attributes and reference to experimental replications of large Levallois
+ﬂakes using the phonolitic lava common to all assemblages studied here, described
+below. The method of Levallois ﬂake production refers to the organization of ﬂake
+removals, speciﬁcally the number and orientation of Levallois ﬂakes removed
+from each prepared core surface. Cores and ﬂakes are attributed to a particular
+Levallois method, deﬁned below, on the basis of artifact reﬁtting, the number of
+ﬂake negatives preserved on cores, ﬂake morphology, and the pattern of negatives
+of prior ﬂake removals.
+
+----------------------------------------------------------------------
+
+Rank 7 (distance: 0.8664)
+ID: Tryon_et_a_p17_para1
+Page: 17, Paragraph: 1
+
+Text:
+4. Flake shape and retouch: Acheulian Levallois ﬂakes from LHA are typically elliptical in shape, and have a centripetal pattern of dorsal scars.
+They may be unretouched, ventrally thinned, or have unifacially retouched
+lateral margins, with unmodiﬁed distal ends, a variant we identify as Levallois cleaver ﬂakes. Early MSA ﬂakes from Koimilot include both elliptical
+forms, often with centripetal dorsal scars, and elongated, triangular ﬂakes
+produced by unidirectional and convergent ﬂaking, some of which may
+be classiﬁed as Levallois points. None of the Levallois ﬂakes at Koimilot exhibit retouch. Greater variability in ﬂake shape and the methods
+of Levallois ﬂake production, combined with the lack of retouch, suggests that the production of ﬂakes with speciﬁc shapes that could be used
+without further modiﬁcation was the aim of the makers (cf. Delagnes,
+1991). A similar observation has been made for the convergent ﬂakes and
+ﬂake-blades characteristic of the Klasies River MSA sequence (Singer
+and Wymer, 1982; Wurz, 2002).
+
+----------------------------------------------------------------------
+
+Rank 8 (distance: 0.8757)
+ID: Tryon_et_a_p6_para3
+Page: 6, Paragraph: 3
+
+Text:
+Following Bo¨eda (1994, 1995), Levallois cores are deﬁned and recognized
+by their two asymmetric, opposed surfaces, one (the upper, or Levallois surface)
+dedicated for ﬂake production, and the other for striking platform preparation
+(see Fig. 2). Levallois ﬂakes are removed sub-parallel to the plane dividing the
+lower and upper core surfaces, with a striking platform inclined at about 65◦
+with respect to the plane deﬁning the Levallois surface, and more steeply (less
+than, but close to 90◦) at the point of impact (Bo¨eda and Pelegrin, 1979; Texier,
+1996a; Van Peer, 1992) (see Fig. 2). The technique is exclusively direct hard
+
+----------------------------------------------------------------------
+
+Rank 9 (distance: 0.8848)
+ID: Tryon_et_a_p14_para1
+Page: 14, Paragraph: 1
+
+Text:
+ture of smaller Levallois ﬂakes of ﬂint. These include the weight and texture of the
+hammerstone used, the speed and trajectory of the ﬂake-detachment blow, and the
+geometry and size of the core. Core geometry includes the distal and lateral convexities of the Levallois surface, and the angle and careful isolation of the striking
+platform, all of which affect the size and shape of the desired ﬂake. The Levallois
+surface of these large cores was braced against the leg or other support to prevent
+movement of the piece during knapping, and to control the angle of the striking
+platform relative to the ﬂake-detachment blow. Subsequent experiments, described
+below, explored the quality of available raw materials, examined the nature of the
+techniques used, and provide preliminary data on the nature of the reductive process from raw material selection until ﬁnal core discard. Locally obtained lava
+cobbles, boulders, and blocks were used for all experiments. These were procured
+from the modern channels and ancient conglomerates exposed in the Ndau and
+Kapthurin Rivers (see Fig. 1). Although a variety of lavas were tested, much of
+the knapping focused on the phonolitic lava of which nearly all the Kapthurin
+Formation Levallois artifacts are made (raw material type 3 of Tryon, 2003), and
+which proved the best in the successful replication of large Levallois ﬂakes.
+
+----------------------------------------------------------------------
+
+Rank 10 (distance: 0.8969)
+ID: Tryon_et_a_p7_para1
+Page: 7, Paragraph: 1
+
+Text:
+hammer percussion. The Levallois methods include the preferential method, in
+which a single ﬂake is removed from each prepared surface, and various recurrent
+methods, in which a series of Levallois ﬂakes are removed prior to repreparation
+of the Levallois surface (see Fig. 2). These recurrent methods include the recurrent
+centripetal, unidirectional, unidirectional convergent, and bidirectional methods
+(Bo¨eda, 1994; Inizan et al., 1999; Meignen, 1995). Several of these methods may
+be combined during successive phases of re-preparation of the Levallois surface
+throughout the reduction of a single core (Baumler, 1988; Texier and FranciscoOrtego, 1995). Although the lack of uniform criteria for the recognition of Levallois
+ﬂakes is widely recognized (e.g., Copeland, 1995; Perp`ere, 1986; Van Peer, 1992),
+factors normally taken into account include the presence of multiple dorsal scars,
+
+----------------------------------------------------------------------
+

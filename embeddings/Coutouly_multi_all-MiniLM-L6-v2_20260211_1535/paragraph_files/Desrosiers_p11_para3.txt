@@ -1,0 +1,4 @@
+microblades ( n = 1 75) , parallelism of the
+ arris is clearly lacking (high: 6, good: 12,
+ medium: 15 low: 62, remainder unde termined) and there is no trend in
+ the standardisation of blank attributes.
