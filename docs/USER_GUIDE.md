@@ -1,114 +1,95 @@
-# User Guide
+# Codebook Tools — User Guide
 
-Archaeological Text Analysis Pipeline
+Parses `.Rmd` or `.md` codebook files into individual JSON code entries,
+one file per code plus a summary file. All downstream work (embeddings,
+RAG retrieval, LLM coding) lives in the `procedural_unit_rag` repository.
 
-------------------------------------------------------------------------
-
-## Overview
-
-This guide explains how to install, configure, and run the paragraph
-extraction and embedding pipeline.
-
-Supported uses:
-
--   Codebook-based literature sampling
--   LLM vs expert coding comparison
--   Inter-rater reliability studies
--   Structured thematic analysis
-
-------------------------------------------------------------------------
+---
 
 ## Installation
 
-Install Anaconda or Miniconda, then:
-
-conda env create -f environment.yml\
+```bash
+conda env create -f environment.yml
 conda activate codebook_parsing
+```
 
-------------------------------------------------------------------------
+---
 
-## Codebook Preparation
+## Usage
 
-Edit run_parser.py:
+**1. Edit `config.yaml`**
 
-CODEBOOK_FILE = "path/to/your_codebook.Rmd"\
-CODEBOOK_TYPE = "mode" or "procedural"\
-CODEBOOK_VERSION = "v1.0"\
-CODEBOOK_NAME = "Lithic_Modes"
+```yaml
+codebook_file: C:\path\to\your_codebook.Rmd
+codebook_name: Site_Form
+codebook_version: v1.1
+output_base_dir: C:\path\to\output_directory
+json_indent: 2
+```
 
-Run:
+**2. Run**
 
-python run_parser.py
+```bash
+python run.py
+# or with an explicit config file:
+python run.py my_other_config.yaml
+```
 
-Output:
+Output is written to `output_base_dir/codebook_name_version/`.
 
-parsed_codebooks/Lithic_Modes_v1.0/
+---
 
-------------------------------------------------------------------------
+## Output
 
-## PDF Preparation
+```
+Site_Form_v1.1/
+├── pre-contact_component_pre_conta_v1.1.json
+├── post-contact_component_post_conta_v1.1.json
+├── ...
+└── codebook_summary_v1.1.json
+```
 
-Place PDFs in one directory:
+Each JSON file contains the fields extracted from one `##` section:
+`title`, `code_id`, `short_description`, `definition`,
+`inclusion_criteria`, `exclusion_criteria`, `typical_exemplars`,
+`atypical_exemplars`, `close_but_no`, plus codebook metadata
+(`codebook_name`, `codebook_version`, `parse_date`).
 
-my_pdfs/ ├── Smith_2015_Lithics.pdf ├── Jones_2018_Technology.pdf
+For codebooks that use `# Binary traits` and `# Categorical traits`
+top-level section headers (currently the site form codebook), each entry
+also includes `"trait_type": "binary"` or `"trait_type": "categorical"`.
 
-------------------------------------------------------------------------
+---
 
-## Configuration (config.yaml)
+## Codebook file format
 
-pdfs: directory: path/to/your/pdfs
+The parser expects `##`-level headers for individual codes, with bold
+field labels:
 
-codebook: directory: parsed_codebooks/Lithic_Modes_v1.0 version: v1.0
+```markdown
+# Binary traits
 
-paragraphs: min_length: 200 max_length: 5000 parser: "nougat"
+## Code title (Short_ID)
 
-embedding: model: sentence-transformers/all-MiniLM-L6-v2 batch_size: 32
+**Short Description:** ...
 
-retrieval: paragraphs_per_pdf: 10
+**Definition:** ...
 
-------------------------------------------------------------------------
+**Inclusion criteria:** ...
 
-## Running
+**Exclusion criteria:** ...
 
-python run_embeddings.py
+**Typical exemplars:** ...
 
-------------------------------------------------------------------------
+**Atypical exemplars:** ...
 
-## Output Structure
+**Close but no:** ...
+```
 
-embeddings/\[run_name\]/
+Codebooks without `# Binary traits` / `# Categorical traits` sections
+are parsed the same way — all `##` entries are extracted without a
+`trait_type` field.
 
-Contains:
-
--   paragraph_files/
--   paragraph_index.json
--   paragraph_embeddings.npy
--   code_embeddings.npy
--   paragraph_faiss_index
--   closest_paragraphs_report.txt
-
-------------------------------------------------------------------------
-
-## Troubleshooting
-
-No PDFs found → check directory path\
-No code entries found → check version matches JSON filenames\
-CUDA errors → reduce batch_size\
-Nougat slow → expected on CPU
-
-------------------------------------------------------------------------
-
-## Reproducibility
-
-Each run stores:
-
--   Embedding model name\
--   Extracted paragraphs\
--   Embedding matrices\
--   Retrieval results
-
-Archive full output directory for reproducibility.
-
-------------------------------------------------------------------------
+---
 
 Support: jonathan.n.paige@gmail.com

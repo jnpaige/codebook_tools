@@ -1,61 +1,18 @@
-# Configuration for Paragraph Extraction and Embedding Pipeline
-# Edit this file with your settings, then run:
-#   python run_embeddings.py --config config.yaml
+# Codebook Parser Configuration
+# Run with: python run.py
 
-# PDF Configuration
-pdfs:
-  # Directory containing your PDF files
-  directory: C:\path\to\your\pdfs
-  
-  # Pattern to match PDF files (use *.pdf for all PDFs)
-  pattern: "*.pdf"
-  # Examples:
-  #   "*.pdf"       - All PDFs in directory
-  #   "Smith*.pdf"  - PDFs starting with "Smith"
-  #   "*2020*.pdf"  - PDFs containing "2020"
+output_base_dir: C:\Users\jpaige\Desktop\Local_repositories\Codebook_output_llm_repo
+json_indent: 2
 
-# Paragraph Extraction Settings
-paragraphs:
-  min_length: 50      # Minimum characters for valid paragraph
-  max_length: 5000    # Maximum characters for valid paragraph
+codebooks:
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Procedural.unit.codebook\paper\Procedural unit codebook.Rmd
+    codebook_name: Procedural_Unit
+    codebook_version: v1.1
 
-# Codebook Configuration
-codebook:
-  # Directory containing parsed codebook (all code JSON files)
-  # The script will automatically load ALL codes in this directory
-  directory: C:\path\to\parsed_codebooks\Lithic_Modes_v1.0
-  
-  # Version to match (e.g., v1.0, v1.1, v2.0)
-  version: v1.0
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\technological.mode.codebook\paper\Lithic_Modes_AI_Codebook_v_0_1.Rmd
+    codebook_name: Lithic_Modes
+    codebook_version: v0.1
 
-# Embedding Settings
-embedding:
-  # Embedding model to use
-  # Options:
-  #   sentence-transformers/all-MiniLM-L6-v2      (fast, 384-dim)
-  #   sentence-transformers/all-mpnet-base-v2     (better quality, 768-dim)
-  #   sentence-transformers/multi-qa-mpnet-base-dot-v1 (best for search, 768-dim)
-  model: sentence-transformers/all-MiniLM-L6-v2
-  
-  # Batch size for embedding generation (reduce if out of memory)
-  batch_size: 32
-  
-  # Optional: Custom queries for specific codes
-  # If specified, these override the default (definition + criteria + exemplars)
-  custom_queries:
-    # Example - uncomment and edit:
-    # mode_a: "Find descriptions of hammerstones showing battering damage and percussion marks"
-    # mode_g2: "Find mentions of blade production, prismatic cores, and systematic blade removal"
-
-# Output Configuration
-output:
-  # Base directory for all output
-  # Output will be saved in: base_directory/[Citation]_[Model]_[Timestamp]/
-  base_directory: embeddings
-
-# Retrieval Configuration
-retrieval:
-  # Number of paragraphs to retrieve per PDF
-  # These will be the paragraphs closest to the codebook's "center"
-  # (i.e., generally relevant to all codebook concepts)
-  paragraphs_per_pdf: 10
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Site_form_codebook\Louisiana_site_form_codebook_v1.1.Rmd
+    codebook_name: Site_Form
+    codebook_version: v1.1
