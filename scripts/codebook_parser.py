@@ -3,9 +3,9 @@
 Codebook Parser Module
 
 Parses .Rmd or .md codebook files into individual JSON code entries.
-Codebook-agnostic: detects # Binary traits and # Categorical traits section
-headers and tags each entry accordingly. Falls back to plain ## parsing
-for codebooks that do not use those section headers.
+Entries are extracted from under a '# Traits' top-level section header.
+Each entry is expected to contain a **Data type:** field (binary, categorical,
+or numeric) and a **Response format:** field describing how to record results.
 
 Author: Jonathan Paige
 Date: 2025
@@ -74,59 +74,35 @@ class CodebookParser:
     # ------------------------------------------------------------------
 
     def _parse_entries(self, content: str) -> List[Dict]:
-        """
-        Split content into ## sections and parse each as a code entry.
-
-        If the file contains '# Binary traits' or '# Categorical traits'
-        top-level headers, entries are tagged with trait_type accordingly.
-        Otherwise, all ## entries are parsed without a trait_type.
-        """
-        has_trait_sections = bool(
-            re.search(r'^# Binary traits', content, re.MULTILINE) or
-            re.search(r'^# Categorical traits', content, re.MULTILINE)
-        )
-
-        if has_trait_sections:
-            return self._parse_with_trait_sections(content)
-        else:
-            return self._parse_all_entries(content, trait_type=None)
-
-    def _parse_with_trait_sections(self, content: str) -> List[Dict]:
-        """Parse by splitting on top-level # headers and assigning trait_type."""
-        entries = []
-
+        """Extract all ## entries from the '# Traits' section."""
         # Split on single-# headers (not ##)
         top_sections = re.split(r'\n(?=# [^#])', content)
 
+        traits_section = None
         for section in top_sections:
-            section = section.strip()
-            if not section:
-                continue
+            if re.match(r'# Traits', section.strip()):
+                traits_section = section
+                break
 
-            if re.match(r'# Binary traits', section):
-                trait_type = 'binary'
-            elif re.match(r'# Categorical traits', section):
-                trait_type = 'categorical'
-            else:
-                continue  # skip preamble, definitions, bibliography, etc.
+        if traits_section is None:
+            # Fallback: parse all ## entries in the whole file
+            return self._parse_subsections(content)
 
-            entries.extend(self._parse_all_entries(section, trait_type=trait_type))
+        return self._parse_subsections(traits_section)
 
-        return entries
-
-    def _parse_all_entries(self, content: str, trait_type: Optional[str]) -> List[Dict]:
+    def _parse_subsections(self, content: str) -> List[Dict]:
         """Split content on ## headers and parse each as a code entry."""
         parts = re.split(r'\n(?=## )', content)
         entries = []
         for part in parts:
             part = part.strip()
             if part.startswith('## '):
-                entry = self._parse_entry(part, trait_type)
+                entry = self._parse_entry(part)
                 if entry:
                     entries.append(entry)
         return entries
 
-    def _parse_entry(self, text: str, trait_type: Optional[str]) -> Optional[Dict]:
+    def _parse_entry(self, text: str) -> Optional[Dict]:
         """Parse a single ## section into a code entry dict."""
         title_match = re.search(r'^## (.+?)$', text, re.MULTILINE)
         if not title_match:
@@ -137,21 +113,26 @@ class CodebookParser:
         entry = {
             'title': title,
             'code_id': self._sanitize_filename(title),
-            'short_description': self._extract_field(text, r'\*\*Short Description:\*\*\s*(.+?)(?=\n\*\*|$)'),
-            'definition': self._extract_field(text, r'\*\*Definition:\*\*\s*(.+?)(?=\n\*\*|$)'),
-            'inclusion_criteria': self._extract_field(text, r'\*\*Inclusion criteria:\*\*\s*(.+?)(?=\n\*\*|$)'),
-            'exclusion_criteria': self._extract_field(text, r'\*\*Exclusion criteria:\*\*\s*(.+?)(?=\n\*\*|$)'),
-            'typical_exemplars': self._extract_field(text, r'\*\*Typical exemplars:\*\*\s*(.+?)(?=\n\*\*|$)'),
-            'atypical_exemplars': self._extract_field(text, r'\*\*Atypical exemplars:\*\*\s*(.+?)(?=\n\*\*|$)'),
-            'close_but_no': self._extract_field(text, r'\*\*Close but no:\*\*\s*(.+?)(?=\n\*\*|$)'),
+            'data_type': self._extract_field(text, r'\*\*Data type:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'short_description': self._extract_field(text, r'\*\*Short Description:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'definition': self._extract_field(text, r'\*\*Definition:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'inclusion_criteria': self._extract_field(text, r'\*\*Inclusion criteria:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'exclusion_criteria': self._extract_field(text, r'\*\*Exclusion criteria:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'typical_exemplars': self._extract_field(text, r'\*\*Typical exemplars:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'atypical_exemplars': self._extract_field(text, r'\*\*Atypical exemplars:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'close_but_no': self._extract_field(text, r'\*\*Close but no:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'categories': self._extract_field(text, r'\*\*Categories:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
+            'response_format': self._extract_field(text, r'\*\*Response format:\*\*\s*(.+?)(?=\n\*\*|\n#|$)'),
             'codebook_name': self.codebook_name,
             'codebook_version': self.codebook_version,
             'parse_date': self.parse_date,
             'full_text': text.strip(),
         }
 
-        if trait_type is not None:
-            entry['trait_type'] = trait_type
+        # Drop empty optional fields to keep JSON tidy
+        for key in ('categories', 'typical_exemplars', 'atypical_exemplars', 'close_but_no'):
+            if not entry[key]:
+                del entry[key]
 
         return entry
 

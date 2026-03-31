@@ -16,3 +16,7 @@ codebooks:
   - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Site_form_codebook\Louisiana_site_form_codebook_v1.1.Rmd
     codebook_name: Site_Form
     codebook_version: v1.1
+
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Site_content_codebook\Louisiana_site_form_codebook_categorical_numeric_v1.1.Rmd
+    codebook_name: Site_Content
+    codebook_version: v1.1
