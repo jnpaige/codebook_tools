@@ -1,22 +1,22 @@
 # Codebook Parser Configuration
 # Run with: python run.py
 
-output_base_dir: C:\Users\jpaige\Desktop\Local_repositories\Codebook_output_llm_repo
+output_base_dir: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Codebooks_processed
 json_indent: 2
 
 codebooks:
-  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Procedural.unit.codebook\paper\Procedural unit codebook.Rmd
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Codebooks\Procedural.unit.codebook\paper\Procedural unit codebook.Rmd
     codebook_name: Procedural_Unit
     codebook_version: v1.1
 
-  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\technological.mode.codebook\paper\Lithic_Modes_AI_Codebook_v_0_1.Rmd
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Codebooks\technological.mode.codebook\paper\Lithic_Modes_AI_Codebook_v_0_1.Rmd
     codebook_name: Lithic_Modes
     codebook_version: v0.1
 
-  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Site_form_codebook\Louisiana_site_form_codebook_v1.1.Rmd
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Codebooks\Site_form_codebook\Louisiana_site_form_codebook_v1.1.Rmd
     codebook_name: Site_Form
     codebook_version: v1.1
 
-  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Site_content_codebook\Louisiana_site_form_codebook_categorical_numeric_v1.1.Rmd
+  - codebook_file: C:\Users\jpaige\Desktop\Research_repositories\text_coding_llm_repositories\Codebooks\Site_content_codebook\Louisiana_site_form_codebook_categorical_numeric_v1.1.Rmd
     codebook_name: Site_Content
     codebook_version: v1.1
